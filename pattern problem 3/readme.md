@@ -13,3 +13,14 @@ For example, if `n = 5`, the output should be:
 **
 *
 </pre>
+
+Also for example, if `n=5`, and we have to print the numbers like:
+<pre>
+1
+12
+123
+12
+1
+</pre>
+
+Then we only need to change System.out.print("*"); to System.out.print("cst");

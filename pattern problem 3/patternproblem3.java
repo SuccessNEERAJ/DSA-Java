@@ -10,7 +10,7 @@ public class patternproblem3{
         for(int row =1; row<=trows; row++){
             //work for the current row
             for(int cst = 1; cst<=stars; cst++){
-                System.out.print("*");
+                System.out.print("*"); // to write number instead of star, pass cst in System.out.print(cst);
             }
             //prepare for the next row
             System.out.println();
