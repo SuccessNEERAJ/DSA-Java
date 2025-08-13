@@ -23,4 +23,4 @@ Also for example, if `n=5`, and we have to print the numbers like:
 1
 </pre>
 
-Then we only need to change System.out.print("*"); to System.out.print("cst");
+Then we only need to change `System.out.print("*");` to `System.out.print(cst);`
