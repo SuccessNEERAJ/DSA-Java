@@ -15,10 +15,10 @@ Write a Java program that takes an **odd number greater than 3** as input and pr
 
 ---
 For example, if `n = 5`, the output should be:
-<p>
+<pre>
 *********
 **** ****
 ***   ***
 **     **
 *       *
-</p>
+</pre>
