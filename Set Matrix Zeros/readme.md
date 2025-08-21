@@ -65,9 +65,9 @@ for (int i = 1; i < row; i++) {
 ```
 - For each cell (excluding the first row and column), check:
 
-   -If its row was marked `(m[i][0] == 0)`
+   - If its row was marked `(m[i][0] == 0)`
 
-   -Or if its column was marked `(m[0][j] == 0)`
+   - Or if its column was marked `(m[0][j] == 0)`
 
 - If yes → set `m[i][j] = 0.`
 
@@ -108,11 +108,11 @@ m =
 ```
 - Step 1 — First Pass (marking):
 
-   -Found m[1][1] == 0
+   - Found m[1][1] == 0
 
-      -Mark row → m[1][0] = 0
+      - Mark row → m[1][0] = 0
 
-      -Mark column → m[0][1] = 0
+      - Mark column → m[0][1] = 0
 
 Matrix after marking:
 ```text
@@ -122,7 +122,7 @@ Matrix after marking:
 ```
 - Step 2 — Apply markers:
 
-   -(1,1), (1,2), (2,1) become 0.
+   - (1,1), (1,2), (2,1) become 0.
 
 Matrix becomes:
 ```text
