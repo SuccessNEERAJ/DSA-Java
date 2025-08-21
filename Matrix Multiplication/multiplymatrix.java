@@ -59,7 +59,7 @@ public class multiplymatrix {
         }
         }
         else{
-            System.out.println("The number of rows and column of both matrix doesn't follow the matrixplication rule.");
+            System.out.println("The number of rows and column of both matrix doesn't follow the matrix multiplication rule.");
         }
         
     }
